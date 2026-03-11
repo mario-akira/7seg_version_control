@@ -78,5 +78,7 @@ seven_seg_version_control seven_seg_version_control_inst(
 	.HEX2_OUT(HEX2)
 );
 
-
+assign HEX3 = 8'b11111111;
+assign HEX4 = 8'b11111111;
+assign HEX5 = 8'b11111111;
 endmodule

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE10_LITE_Golden_Top
-Wed Mar 11 11:42:08 2026
+Wed Mar 11 11:53:41 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -44,7 +44,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 11 11:42:08 2026           ;
+; Analysis & Synthesis Status        ; Successful - Wed Mar 11 11:53:41 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; DE10_LITE_Golden_Top                            ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                            ;
@@ -276,7 +276,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Wed Mar 11 11:41:57 2026
+    Info: Processing started: Wed Mar 11 11:53:32 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 7seg_version_control -c DE10_LITE_Golden_Top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -289,9 +289,6 @@ Warning (12125): Using design file DE10_LITE_Golden_Top.v, which is not specifie
 Info (12127): Elaborating entity "DE10_LITE_Golden_Top" for the top level hierarchy
 Warning (10034): Output port "DRAM_ADDR" at DE10_LITE_Golden_Top.v(14) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 14
 Warning (10034): Output port "DRAM_BA" at DE10_LITE_Golden_Top.v(15) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 15
-Warning (10034): Output port "HEX3" at DE10_LITE_Golden_Top.v(30) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-Warning (10034): Output port "HEX4" at DE10_LITE_Golden_Top.v(31) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-Warning (10034): Output port "HEX5" at DE10_LITE_Golden_Top.v(32) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
 Warning (10034): Output port "LEDR" at DE10_LITE_Golden_Top.v(38) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 38
 Warning (10034): Output port "VGA_B" at DE10_LITE_Golden_Top.v(44) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 44
 Warning (10034): Output port "VGA_G" at DE10_LITE_Golden_Top.v(45) has no driver File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 45
@@ -408,11 +405,11 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 24
     Warning (13410): Pin "HEX0[0]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
     Warning (13410): Pin "HEX0[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[2]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
     Warning (13410): Pin "HEX0[3]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
     Warning (13410): Pin "HEX0[4]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[5]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[6]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[6]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
     Warning (13410): Pin "HEX0[7]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 27
     Warning (13410): Pin "HEX1[0]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 28
     Warning (13410): Pin "HEX1[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 28
@@ -424,36 +421,36 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX1[7]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 28
     Warning (13410): Pin "HEX2[0]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
     Warning (13410): Pin "HEX2[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[2]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[2]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
     Warning (13410): Pin "HEX2[3]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
     Warning (13410): Pin "HEX2[4]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[5]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[6]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[5]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
     Warning (13410): Pin "HEX2[7]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX3[0]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[2]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[4]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[5]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[6]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[7]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[7]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[7]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[7]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[7]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[7]" is stuck at VCC File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 32
     Warning (13410): Pin "LEDR[0]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 38
     Warning (13410): Pin "LEDR[1]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 38
     Warning (13410): Pin "LEDR[2]" is stuck at GND File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 38
@@ -504,10 +501,10 @@ Info (21057): Implemented 185 device resources after synthesis - the final resou
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 97 output pins
     Info (21060): Implemented 71 bidirectional pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 211 warnings
-    Info: Peak virtual memory: 573 megabytes
-    Info: Processing ended: Wed Mar 11 11:42:08 2026
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:26
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 208 warnings
+    Info: Peak virtual memory: 577 megabytes
+    Info: Processing ended: Wed Mar 11 11:53:41 2026
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:21
 
 

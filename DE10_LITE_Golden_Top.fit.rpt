@@ -1,5 +1,5 @@
 Fitter report for DE10_LITE_Golden_Top
-Wed Mar 11 11:42:27 2026
+Wed Mar 11 11:53:52 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -63,7 +63,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Wed Mar 11 11:42:27 2026           ;
+; Fitter Status                      ; Successful - Wed Mar 11 11:53:52 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; DE10_LITE_Golden_Top                            ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                            ;
@@ -1946,7 +1946,7 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:04
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
 Warning (169177): 88 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin ADC_CLK_10 uses I/O standard 3.3-V LVTTL at N5 File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 9
     Info (169178): Pin MAX10_CLK1_50 uses I/O standard 3.3-V LVTTL at P11 File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 10
@@ -2110,10 +2110,10 @@ Warning (169064): Following 71 pins have no output enable or a GND or VCC output
     Info (169065): Pin GPIO[35] has a permanently disabled output enable File: /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.v Line: 63
 Info (144001): Generated suppressed messages file /home/marioakira/repositories/7seg_version_control/DE10_LITE_Golden_Top.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 1283 megabytes
-    Info: Processing ended: Wed Mar 11 11:42:28 2026
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Peak virtual memory: 1291 megabytes
+    Info: Processing ended: Wed Mar 11 11:53:52 2026
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:14
 
 
 +----------------------------+
