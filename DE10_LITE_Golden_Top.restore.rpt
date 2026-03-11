@@ -1,0 +1,74 @@
+Restore Archived Project report for DE10_LITE_Golden_Top
+Wed Mar 11 10:28:41 2026
+Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Mar 11 10:28:41 2026 ;
+; Revision Name                   ; DE10_LITE_Golden_Top                  ;
+; Top-level Entity Name           ; DE10_LITE_Golden_Top                  ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/marioakira/Documents/Curso Macnica/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/Golden_Top/DE10_LITE_Golden_Top_tmp_archive.qar' into the '/home/marioakira/repositories/7seg_version_control' directory
+Info: Generated report 'DE10_LITE_Golden_Top.restore.rpt'
+
+
++----------------------------------------------+
+; Files Restored                               ;
++----------------------------------------------+
+; File Name                                    ;
++----------------------------------------------+
+; qar_info.json                                ;
+; DE10_LITE_Golden_Top.qpf                     ;
+; DE10_LITE_Golden_Top.qsf                     ;
+; DE10_LITE_Golden_Top.sdc                     ;
+; DE10_LITE_Golden_Top.v                       ;
+; DE10_LITE_Golden_Top_assignment_defaults.qdf ;
++----------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
