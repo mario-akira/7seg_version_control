@@ -1,6 +1,6 @@
 module seven_seg_mux(
-	input			[3:0]			data_IN,
-	output		[7:0]			seven_segOUT
+	input				[3:0]			data_IN,
+	output	reg	[7:0]			seven_segOUT
 );
 //=======================================================
 //  REG/WIRE declarations
@@ -9,10 +9,10 @@ module seven_seg_mux(
 //=======================================================
 //  Structural coding
 //=======================================================
-assign seven_segOUT[7] = 1'b0;
 
 always @(*)begin
-	case(data_IN[11:8])
+	seven_segOUT[7] = 1'b0;
+	case(data_IN[3:0])
 		4'h1: seven_segOUT[6:0] = 7'b1111001;
 		4'h2: seven_segOUT[6:0] = 7'b0100100;
 		4'h3: seven_segOUT[6:0] = 7'b0110000;

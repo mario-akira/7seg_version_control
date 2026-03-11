@@ -19,12 +19,12 @@ seven_seg_mux	seven_seg_mux_inst_1(
 
 seven_seg_mux	seven_seg_mux_inst_2(
 	.data_IN(version_IN[7:4]),
-	.seven_segOUT(HEX2_OUT[7:0])
+	.seven_segOUT(HEX1_OUT[7:0])
 );
 
 seven_seg_mux	seven_seg_mux_inst_3(
 	.data_IN(version_IN[3:0]),
-	.seven_segOUT(HEX3_OUT[7:0])
+	.seven_segOUT(HEX2_OUT[7:0])
 );
 
 endmodule
